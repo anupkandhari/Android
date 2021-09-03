@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Quizup</string>
+    <string name="placeholder">Loading Question</string>
+    <string name="string_button_text" />
+    <string name="true_button_text">TRUE</string>
+    <string name="false_button_text">FALSE</string>
+    <string name="next_button_text">NEXT</string>
+    <string name="correct">That\'s Correct!</string>
+    <string name="wrong">Your\'e Wrong!</string>
+    <string name="question_not_loaded" type="id">Questions Not Loaded!</string>
+    <string name="question_counter">0/0</string>
+</resources>

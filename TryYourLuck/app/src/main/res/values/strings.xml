@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Try Your Luck</string>
+    <string name="you_have">You have</string>
+    <string name="try_your_luck">Try your luck!</string>
+    <string name="info">information</string>
+    <string name="game">Game of Chance</string>
+    <string name="expl">For Value less than 7 , you lose. For value greater than 7 you win. Jackpot when you get 7!</string>
+</resources>

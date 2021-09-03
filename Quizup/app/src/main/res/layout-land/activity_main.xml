@@ -16,7 +16,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="40dp"
-            android:layout_marginTop="48dp"
+            android:layout_marginTop="32dp"
             android:text="@string/app_name"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -27,17 +27,17 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="40dp"
-            android:layout_marginTop="24dp"
+            android:layout_marginTop="16dp"
             android:text="@string/question_counter"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/title_textview" />
 
         <androidx.cardview.widget.CardView
             android:id="@+id/card_view"
-            android:layout_width="0dp"
-            android:layout_height="150dp"
+            android:layout_width="696dp"
+            android:layout_height="98dp"
             android:layout_marginStart="16dp"
-            android:layout_marginTop="32dp"
+            android:layout_marginTop="4dp"
             android:layout_marginEnd="16dp"
             android:backgroundTint="#292B39"
             app:layout_constraintEnd_toEndOf="parent"
@@ -57,6 +57,8 @@
         <Button
             android:id="@+id/button_true"
             style="@style/button_stye"
+            android:layout_width="204dp"
+            android:layout_height="45dp"
             android:layout_marginTop="16dp"
             android:text="@string/true_button_text"
             app:layout_constraintBottom_toTopOf="@+id/button_false"
@@ -68,6 +70,8 @@
         <Button
             android:id="@+id/button_false"
             style="@style/button_stye"
+            android:layout_width="202dp"
+            android:layout_height="44dp"
             android:layout_marginTop="20dp"
             android:text="@string/false_button_text"
             app:layout_constraintEnd_toEndOf="parent"
@@ -78,14 +82,14 @@
         <Button
             android:id="@+id/button_next"
             style="@style/button_stye"
-            android:layout_width="108dp"
-            android:layout_height="54dp"
-            android:layout_marginTop="44dp"
+            android:layout_width="98dp"
+            android:layout_height="44dp"
+            android:layout_marginTop="48dp"
             android:text="@string/next_button_text"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.889"
+            app:layout_constraintHorizontal_bias="0.872"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/button_false" />
+            app:layout_constraintTop_toBottomOf="@+id/card_view" />
 
         <TextView
             android:id="@+id/highestScoreText"
@@ -95,10 +99,10 @@
             android:text="@string/highest_score"
             app:layout_constraintBottom_toTopOf="@+id/card_view"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.824"
+            app:layout_constraintHorizontal_bias="0.825"
             app:layout_constraintStart_toEndOf="@+id/title_textview"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.402" />
+            app:layout_constraintVertical_bias="0.278" />
 
         <TextView
             android:id="@+id/scoreText"
@@ -110,7 +114,8 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.843"
             app:layout_constraintStart_toEndOf="@+id/question_counter"
-            app:layout_constraintTop_toBottomOf="@+id/highestScoreText" />
+            app:layout_constraintTop_toBottomOf="@+id/highestScoreText"
+            app:layout_constraintVertical_bias="0.36" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>

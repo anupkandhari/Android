@@ -9,4 +9,6 @@
     <string name="wrong">Your\'e Wrong!</string>
     <string name="question_not_loaded" type="id">Questions Not Loaded!</string>
     <string name="question_counter">0/0</string>
+    <string name="current_score">Current Score:</string>
+    <string name="highest_score">Highest Score:</string>
 </resources>

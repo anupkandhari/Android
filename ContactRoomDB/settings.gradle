@@ -1,0 +1,2 @@
+rootProject.name = "Contact RoomDB"
+include ':app'

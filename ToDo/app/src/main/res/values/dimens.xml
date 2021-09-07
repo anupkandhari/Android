@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="recycler_margin">60dp</dimen>
+    <dimen name="recycler_padding">16dp</dimen>
+
+    <dimen name="sheet_peek_height">16dp</dimen>
+    <dimen name="sheet_edit_text_spacing">16dp</dimen>
+
+    <dimen name="radio_group_spacing">10dp</dimen>
+    <dimen name="top_margin">6dp</dimen>
+
+
+</resources>

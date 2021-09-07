@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">ToDo</string>
+    <string name="about_text"><![CDATA[ToDO App - Create, Sort & Track  yout tasks by Date & Priority]]></string>
+    <string name="enter_todo_hint">e.g, Learn Flutter</string>
+    <string name="image_description">button image</string>
+    <string name="tomorrow">Tomorrow</string>
+    <string name="next_week">Next Week</string>
+    <string name="today">Today</string>
+    <string name="due_date_text">Due Date</string>
+    <string name="radio_high">High</string>
+    <string name="radio_med">Medium</string>
+    <string name="radio_low">Low</string>
+    <string name="empty_field">Empty Task</string>
+    <string name="action_settings">About</string>
+</resources>
